@@ -1,7 +1,7 @@
 {
   "name": "gulp-webpack-starter",
   "version": "1.2.1",
-  "description": "Gulp Webpack Starter - static site builder with a lot of cool features",
+  "description": "Gulp-Webpack-Starter",
   "engines": {
     "node": ">=8.9.1",
     "npm": ">=5.5.0"
@@ -14,12 +14,8 @@
     "gulp-starter",
     "gulp-builder"
   ],
-  "author": "Dmytro Chumak <hello@webman.pro> (http://webman.pro/)",
+  "author": "Kavalorn",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wwwebman/gulp-webpack-starter.git"
-  },
   "scripts": {
     "start": "gulp",
     "build": "cross-env NODE_ENV=production gulp",

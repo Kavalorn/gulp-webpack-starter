@@ -1,1 +1,2 @@
-require('modules');
+
+console.log(require('modules'));

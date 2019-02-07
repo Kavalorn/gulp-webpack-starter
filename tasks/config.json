@@ -20,16 +20,15 @@
       "dev": "js",
       "dist": "assets/js",
       "parts": "modules",
-      "extensions": [".json", ".js"]
+      "extensions": [
+         ".json",
+         ".js"
+      ]
    },
    "img": {
       "dev": "img/**/",
       "dist": "assets/img",
       "extensions": "*.+(jpg|jpeg|gif|png|svg)"
-   },
-   "svg": {
-      "dev": "img/svg",
-      "dist": "assets/img"
    },
    "fonts": {
       "dev": "fonts",
@@ -47,13 +46,13 @@
       "password": ""
    },
    "browserSync": {
-    "port": 3333,
-    "proxy": {
-      "target": "",
-      "publicPath" : "",
-      "files": [
-        "../*.php"
-      ]
-    }
+      "port": 3333,
+      "proxy": {
+         "target": "",
+         "publicPath": "",
+         "files": [
+            "../*.php"
+         ]
+      }
    }
 }
